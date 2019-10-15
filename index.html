@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Hello, my name is Jordan Melancon this is my personal portfolio website.">
+    <meta name="author" content="Jordan Melancon">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Jordan Melancon - Portfolio</title>
+</head>
+<body class="bg-light">
+
+<!-- LANDING HEADER -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-trans sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand ml-5 text-white mt-4"><img src="./IMG/JM_logo.PNG" class="mb-5 mr-3" alt="img" style="width: 100px; height: auto;"></a>
+            <button class="navbar-toggler text-warning" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto mr-5">
+                    <li class="nav-item">
+                        <a href="#" class="text-white mr-5 "><i class="fab fa-linkedin icon-big"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="text-white mr-5"><i class="fab fa-github icon-big"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-link text-white mr-4 font-weight-bold" onclick="scrollAbout()">About</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-link text-white mr-4 font-weight-bold" onclick="scrollWork()">Work</button>
+                    </li>
+                    <li class="nav-item">
+                            <button class="nav-link btn btn-link text-white mr-4 font-weight-bold" onclick="scrollProjects()">Projects</button>
+                        </li>
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-outline-light btn-xl font-weight-bold" onclick="scrollContact()">Contact Me</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="IMG/Hello-World.mp4" type="video/mp4">
+    </video>
+    <div class="container h-75 hero-box">
+        <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+            <h1 class="text-center text-white mb-4">Design and Development</h1>
+            <hr class="underline mx-auto" style="width:45%;">
+            <h2 class="text-center text-white">Jordan Melancon</h2>
+
+        </div>
+        </div>
+    </div>
+</header>
+
+<section class="bg-light mb-5">
+    <div id="about">
+        <div class="text-dark bg-light text-center py-5 shadow">
+            <h1>Welcome To My Portfolio Website</h1>
+        </div>
+
+        <div class="row1 d-flex justify-content-center py-5">
+            <div class="col-md-4  mb-4">
+                <img src="./IMG/M-Jordan.jpg" alt="bio-pic" class="img-fluid rounded float-left">
+            </div>
+            <div class="col-md-8 float-right  mb-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dicta nobis ullam iste magni facilis quae eius praesentium rerum labore similique blanditiis fugiat harum, vel doloremque, veniam tempore vero sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis at velit totam molestias expedita nisi cumque animi pariatur nesciunt quam natus illum voluptatum, culpa quis maxime et consequuntur sunt. Blanditiis.</p>
+            </div>
+        </div>
+
+        <div class="row1">
+            <h2>My Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit architecto perspiciatis incidunt quae placeat?</p>
+            <hr>
+            <h3>Daily Technologies I Use:</h3>
+                <ul class="list-inline ">
+                    <li class="list-inline-item ml-3"><i class="fab fa-html5 icon-big"></i> HTML 5  <i class="fab fa-css3-alt icon-big ml-3"></i> CSS 3  <i class="fab fa-js icon-big ml-3"></i> Javascript <i class="fab fa-bootstrap icon-big ml-3"></i> Boostrap <i class="fab fa-git-square icon-big ml-3"></i> Git  <i class="fas fa-database icon-big ml-3"></i> SQL <i class="fab fa-adobe icon-big ml-3"></i> Photoshop </li>
+                </ul>
+            <h3>Experience In:</h3>
+                <ul class="list-inline ">
+                    <li class="list-inline-item ml-3"><img src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus-logo.png" alt="c++-icon" class="alt-icon" data-toggle="tooltip" data-placement="top" title="C++ icon by Icons8" > C++ <img src="./IMG/c-logo.png" alt="c++-icon" class="alt-icon ml-3" data-toggle="tooltip" data-placement="top" title="Icon made by Freepik from www.flaticon.com" > C# <i class="fab fa-java icon-big ml-3"></i> Java <img src="./IMG/Matlab.png" alt="c++-icon" class="alt-icon ml-3" > Matlab</li>
+                </ul>
+            <h3>Learning Right Now:</h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item ml-3"><i class="fab fa-node-js icon-big"></i> Node.js  <img src="./IMG/expressjslogo.png" alt="Express js icon" class="alt-icon ml-3" > Express  <i class="fas fa-leaf icon-big ml-3"></i> MongoDB <i class="fab fa-react icon-big ml-3"></i> React </li>
+                </ul>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light">
+    <div id="work">
+        <div class="text-dark bg-light text-center py-5 shadow">
+            <h1>My Work</h1>
+        </div>
+
+        <div class="py-5 row2">
+            <h2>What Have I Built?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quae sint itaque quod iusto repellendus?</p>
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./IMG/VeraPro.PNG" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">VeraPro</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./IMG/SKR.PNG" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">SKR Construction</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./IMG/allwaste.PNG" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">allwaste Industrial Services</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 d-flex justify-content-around">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./IMG/RSL.PNG" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Redesign Schools Louisiana</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./IMG/STS.PNG" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Speed Technical Services</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./IMG/SJPHA.PNG" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">St. James Housing Authority</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light">
+        <div id="projects">
+            <div class="text-dark bg-light text-center py-5 shadow">
+                <h1>Projects</h1>
+            </div>
+    
+            <div class="py-5 row2">
+                <h2>Personal and School Projects</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quae sint itaque quod iusto repellendus?</p>
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="./IMG/GPS.png" class="card-img-top" alt="img">
+                            <div class="card-body">
+                                <h5 class="card-title">GPS Navigation System</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">View Project Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <div class="card-img-top square" alt="img"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Scara Robotic Arm</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">View Project Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="./IMG/nerf-turret.png" class="card-img-top" alt="img" style="max-height:445px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Nerf Vulcan Turret</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">View Project Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="bg-light">
+        <div id="contact">
+                <div class="text-dark bg-light text-center py-5 shadow">
+                    <h1>Contact</h1>
+                </div>
+        
+                    <div class="row1 py-5">
+                        <h2>Get In Touch</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia ad id nemo eum repellat.</p>
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-primary text-white">
+                                            <i class="fas fa-user"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                                </div>
+                            </div>
+        
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-primary text-white">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </div>
+                                    <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                                </div>
+                            </div>
+        
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-primary text-white">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </span>
+                                    </div>
+                                        <textarea class="form-control bg-dark text-white" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+        
+                            <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg my-5">
+        
+                        </form>
+                </div>
+            </div>
+</section>
+
+<!-- MAIN SECTION 
+<section class="bg-dark" id="main-header">
+<div class="row2">
+        <div class="row no-gutters">
+            <div class="col-lg-12 col-md-12">
+                <div class="d-flex flex-column">
+                    <div>
+                        <div class="d-flex flex-row text-white align-items-stretch text-center">
+                            <div class="port-item p-4 bg-dark border border-gradient-bg border-3" data-toggle="collapse" data-target="#home">
+                                <i class="fas fa-user fa-2x d-block">
+                                    <span class="d-none d-sm-block">About</span>
+                                </i>
+                            </div>
+                            <div class="port-item p-4 bg-dark border border-gradient-yo border-3" data-toggle="collapse" data-target="#work">
+                                <i class="fas fa-folder-open fa-2x d-block">
+                                    <span class="d-none d-sm-block">Work</span>
+                                </i>
+                            </div>
+                            <div class="port-item p-4 bg-dark border border-gradient-or border-3" data-toggle="collapse" data-target="#contact">
+                                <i class="fas fa-envelope fa-2x d-block">
+                                    <span class="d-none d-sm-block">Contact</span>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    <!-- HOME
+    <div id="home" class="collapse show">
+        <div class="card card-body bg-primary text-white py-5">
+            <h2>Welcome To My Portfolio Website</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ipsa!</p>
+        </div>
+
+        <div class="card card-body py-5">
+            <h3>My Skills</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit architecto perspiciatis incidunt quae placeat?</p>
+            <hr>
+            <h4>HTML 5</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 100%;"></div>
+            </div>
+            <h4>CSS 3</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 100%;"></div>
+            </div>
+            <h4>Javascript</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 90%;"></div>
+            </div>
+            <h4>PHP</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 80%;"></div>
+            </div>
+            <h4>Python</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 70%;"></div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- RESUME 
+    <div id="resume" class="collapse">
+        <div class="card card-body bg-success text-white py-5">
+            <h2>My Resume</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, nesciunt!</p>
+        </div>
+
+        <div class="card card-body py-5">
+            <h3>My Education</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa excepturi velit ratione et consequuntur blanditiis.</p>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Lorem ipsum dolor, sit amet consectetur
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum explicabo eveniet qui quo aut dolores?</p>
+                        <p class="p-2 mb-3 bg-dark text-white">Lorem ipsum dolor sit.</p>
+                        <p class="p-2 mb-3 bg-dark text-white">Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card-body py-5">
+            <h3>Where Have I Worked</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa excepturi velit ratione et consequuntur blanditiis.</p>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Southeastern Louisiana University</h4>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, vitae.</p>
+                        <p class="p-2 mb-3 bg-dark text-white">Position: Full Stack Developer</p>
+                        <p class="p-2 mb-3 bg-dark text-white">Phone: (444) 444-4444</p>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2015 - 2018</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Verapro</h4>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, vitae.</p>
+                        <p class="p-2 mb-3 bg-dark text-white">Position: Web Designer</p>
+                        <p class="p-2 mb-3 bg-dark text-white">Phone: (222) 222-2222</p>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2013 - 2015</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- CONTACT 
+    <div id="contact" class="collapse">
+        <div class="card card-body bg-danger text-white py-5">
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, nesciunt!</p>
+        </div>
+
+            <div class="card card-body py-5">
+                <h3>Get In Touch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia ad id nemo eum repellat.</p>
+                <form>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </span>
+                            </div>
+                                <textarea class="form-control bg-dark text-white" placeholder="message"></textarea>
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg my-5">
+
+                </form>
+        </div>
+    </div>
+</section>-->
+
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="p-5 bg-black text-white">
+            <div class="d-flex justify-content-center">
+                <div class="px-5 py-4 item-hl"><a href="#" class="text-white"><i class="fab fa-linkedin icon-big"></i></a></div>
+                <div class="px-5 py-4 item-hl"><a href="#" class="text-white"><i class="fab fa-github icon-big"></i></a></div>
+                <div class="px-4 py-4 item-hl"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollAbout()"><h4>About</h4></button></div>
+                <div class="px-4 py-4 item-hl"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollWork()"><h4>Work</h4></button></div>
+                <div class="px-4 py-4 item-hl"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollProjects()"><h4>Projects</h4></button></div>
+                <div class="px-4 py-4 item-hl"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollContact()"><h4>Contact Me</h4></button></div>
+            </div>
+            <div class="footer-copyright text-center py-3">Copyright © <span id="year"></span> by Jordan Melancon. All rights reserved.</div>
+    </footer>
+</div>
+
+
+
+<!-- Javascript-->  
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
+<script>
+
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    function scrollAbout() {
+    var elmnt = document.getElementById("about");
+    elmnt.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+    }
+    function scrollWork() {
+    var elmnt = document.getElementById("work");
+    elmnt.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+    }
+    function scrollProjects() {
+    var elmnt = document.getElementById("projects");
+    elmnt.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+    }
+    function scrollContact() {
+    var elmnt = document.getElementById("contact");
+    elmnt.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+    }
+
+</script>
+
+</body>
+</html>
