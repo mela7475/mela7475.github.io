@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1023px) {
+    .navbar {
+        background: rgba(0,0,0,0.85) !important;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-box h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-box h2 {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1.125em;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .hero-box h1 {
+        font-size: 2em;
+    }
+
+    .hero-box h2 {
+        font-size: 1.5em;
+    }
+}
