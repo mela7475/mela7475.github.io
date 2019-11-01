@@ -88,6 +88,35 @@ li {
 }
 
 /* ----------------------------------------------- */
+/* Buttons */
+/* ----------------------------------------------- */
+
+.btn-darker {
+    color: #fff;
+    background-color: #1f1b18;
+    border-color: #1f1b18;
+}
+
+.btn-darker:hover {
+    color: #1f1b18;
+    background-color: #e8e8e8;
+    border-color: #1f1b18;
+}
+
+.btn-lighter {
+    color: #333333;
+
+    border-color: #333333;
+}
+
+.btn-lighter:hover {
+    color: #fff;
+    background-color: #333333;
+    border-color: #333333;
+}
+
+
+/* ----------------------------------------------- */
 /* Icons */
 /* ----------------------------------------------- */
 
