@@ -37,22 +37,22 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/jordanpmelancon/" class="text-white mr-5 "><i class="fab fa-linkedin icon-big"></i></a>
+                        <a href="https://www.linkedin.com/in/jordanpmelancon/" class="text-nav mr-5 "><i class="fab fa-linkedin icon-big"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://github.com/mela7475" class="text-white mr-5"><i class="fab fa-github icon-big"></i></a>
+                        <a href="https://github.com/mela7475" class="text-nav mr-5"><i class="fab fa-github icon-big"></i></a>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link btn btn-link text-white mr-4 font-weight-bold" onclick="scrollAbout()">About</button>
+                        <button class="nav-link btn btn-link text-nav mr-4 font-weight-bold" onclick="scrollAbout()">About</button>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link btn btn-link text-white mr-4 font-weight-bold" onclick="scrollWork()">Work</button>
+                        <button class="nav-link btn btn-link text-nav mr-4 font-weight-bold" onclick="scrollWork()">Work</button>
                     </li>
                     <li class="nav-item">
-                            <button class="nav-link btn btn-link text-white mr-4 font-weight-bold" onclick="scrollProjects()">Projects</button>
+                            <button class="nav-link btn btn-link text-nav mr-4 font-weight-bold" onclick="scrollProjects()">Projects</button>
                         </li>
                     <li class="nav-item">
-                        <button class="nav-link btn btn-outline-light btn-xl font-weight-bold" onclick="scrollContact()">Contact Me</button>
+                        <button class="nav-link btn btn-outline-nav btn-xl font-weight-bold" onclick="scrollContact()">Contact Me</button>
                     </li>
                 </ul>
             </div>
@@ -92,15 +92,15 @@
             <h2>My Skills</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit architecto perspiciatis incidunt quae placeat?</p>
             <hr>
-            <h3>Daily Technologies I Use:</h3>
+            <h3 class="text-lightblue">Daily Technologies I Use:</h3>
                 <ul class="list-inline ">
                     <li class="list-inline-item ml-3"><i class="fab fa-html5 icon-big"></i> HTML 5  <i class="fab fa-css3-alt icon-big ml-3"></i> CSS 3  <i class="fab fa-js icon-big ml-3"></i> Javascript <i class="fab fa-bootstrap icon-big ml-3"></i> Boostrap <i class="fab fa-git-square icon-big ml-3"></i> Git  <i class="fas fa-database icon-big ml-3"></i> SQL <i class="fab fa-adobe icon-big ml-3"></i> Photoshop </li>
                 </ul>
-            <h3>Experience In:</h3>
+            <h3 class="text-lightblue">Experience In:</h3>
                 <ul class="list-inline ">
                     <li class="list-inline-item ml-3"><img src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus-logo.png" alt="c++-icon" class="alt-icon" data-toggle="tooltip" data-placement="top" title="C++ icon by Icons8" > C++ <img src="./IMG/c-logo.png" alt="c++-icon" class="alt-icon ml-3" data-toggle="tooltip" data-placement="top" title="Icon made by Freepik from www.flaticon.com" > C# <i class="fab fa-java icon-big ml-3"></i> Java <img src="./IMG/Matlab.png" alt="c++-icon" class="alt-icon ml-3" > Matlab</li>
                 </ul>
-            <h3>Learning Right Now:</h3>
+            <h3 class="text-lightblue">Learning Right Now:</h3>
                 <ul class="list-inline">
                     <li class="list-inline-item ml-3"><i class="fab fa-node-js icon-big"></i> Node.js  <img src="./IMG/expressjslogo.png" alt="Express js icon" class="alt-icon ml-3" > Express  <i class="fas fa-leaf icon-big ml-3"></i> MongoDB <i class="fab fa-react icon-big ml-3"></i> React </li>
                 </ul>
@@ -116,73 +116,85 @@
 
         <div class="py-5 row2 mx-auto pl-3">
             <h2>What Have I Built?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quae sint itaque quod iusto repellendus?</p>
+            <p>This is a collection of client website I have worked on.</p>
             <div class="row card-deck ml-3 mr-3">
                 <div class="col-lg-4 mt-4">
-                    <div class="card shadow">
+                    <div class="card shadow h-100">
                         <img src="./IMG/VeraPro.PNG" class="card-img-top" alt="img">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">VeraPro</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://www.verapro.net/" class="btn btn-dark">View Website</a>
-                            <a href="https://github.com/mela7475/VeraPro_Site" class="btn btn-outline-secondary">View Github</a>
+                            <p class="card-text">VeraPro is a local Managed Service Provider with IT Support for small to medium-sized businesses. Your true partner in IT.</p>
+                            <div class="mt-auto">
+                                <a href="https://www.verapro.net/" class="btn btn-dark">View Website</a>
+                                <a href="https://github.com/mela7475/VeraPro_Site" class="btn btn-outline-lightblue">View Github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4">
-                    <div class="card shadow">
+                    <div class="card shadow h-100">
                         <img src="./IMG/SKR.PNG" class="card-img-top" alt="img">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">SKR Construction</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://www.skrconstruction.com/" class="btn btn-dark">View Website</a>
-                            <a href="https://github.com/mela7475/SKR_Construction_Site" class="btn btn-outline-secondary">View Github</a>
+                            <p class="card-text">SKR is a multi-facet construction company that provides labor, equipment, engineering services, environmental services, and safety services for our local clientele.</p>
+                            <div class="mt-auto">
+                                <a href="https://www.skrconstruction.com/" class="btn btn-dark">View Website</a>
+                                <a href="https://github.com/mela7475/SKR_Construction_Site" class="btn btn-outline-lightblue">View Github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4">
-                    <div class="card shadow">
+                    <div class="card shadow h-100">
                         <img src="./IMG/allwaste.PNG" class="card-img-top" alt="img">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">allwaste Industrial Services</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://allwasteindustrial.com/" class="btn btn-dark">View Website</a>
-                            <a href="https://github.com/mela7475/allwaste_site" class="btn btn-outline-secondary">View Github</a>
+                            <p class="card-text">allwaste Industrial Services LLC is a Baytown, Texas based industrial companythat works in oil and gas, excavation, mid-stream, and industrial sectors.</p>
+                            <div class="mt-auto">
+                                <a href="https://allwasteindustrial.com/" class="btn btn-dark">View Website</a>
+                                <a href="https://github.com/mela7475/allwaste_site" class="btn btn-outline-lightblue">View Github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row card-deck ml-3 mr-3">
                 <div class="col-lg-4 mt-4">
-                    <div class="card shadow">
+                    <div class="card shadow h-100">
                         <img src="./IMG/RSL.PNG" class="card-img-top" alt="img">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">Redesign Schools Louisiana</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="http://redesignschoolslouisiana.org/" class="btn btn-dark">View Website</a>
-                            <a href="https://github.com/mela7475/RSL_Website" class="btn btn-outline-secondary">View Github</a>
+                            <p class="card-text">Redesign Schools Louisiana is a non-profit organization that serves Louisiana-area schools, children, and families. </p>
+                            <div class="mt-auto">
+                                <a href="http://redesignschoolslouisiana.org/" class="btn btn-dark">View Website</a>
+                                <a href="https://github.com/mela7475/RSL_Website" class="btn btn-outline-lightblue">View Github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4">
-                    <div class="card shadow">
+                    <div class="card shadow h-100">
                         <img src="./IMG/STS.PNG" class="card-img-top" alt="img">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">Speed Technical Services</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://mela7475.github.io/sts-website/" class="btn btn-dark">View Website</a>
-                            <a href="https://github.com/mela7475/sts-website" class="btn btn-outline-secondary">View Github</a>
+                            <p class="card-text">Speed Technical Services has rapidly become an industry leader in all facets of hydro-testing.</p>
+                            <div class="mt-auto">
+                                <a href="https://mela7475.github.io/sts-website/" class="btn btn-dark">View Website</a>
+                                <a href="https://github.com/mela7475/sts-website" class="btn btn-outline-lightblue">View Github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4">
-                    <div class="card shadow">
+                    <div class="card shadow h-100">
                         <img src="./IMG/SJPHA.PNG" class="card-img-top" alt="img">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">St. James Housing Authority</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://mela7475.github.io/sjpha_site/" class="btn btn-dark">View Website</a>
-                            <a href="https://github.com/mela7475/sjpha_site" class="btn btn-outline-secondary">View Github</a>
+                            <p class="card-text">St James Parish Housing Authority provides housing assistance to low income residents through the management of Low Rent Public Housing. </p>
+                            <div class="mt-auto">
+                                <a href="https://mela7475.github.io/sjpha_site/" class="btn btn-dark">View Website</a>
+                                <a href="https://github.com/mela7475/sjpha_site" class="btn btn-outline-lightblue">View Github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -199,45 +211,45 @@
     
             <div class="py-5 row2 mx-auto pl-3">
                 <h2>Personal and School Projects</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quae sint itaque quod iusto repellendus?</p>
+                <p>These are some of the projects I have done in my free time along with some school projects.</p>
                 <div class="row card-deck ml-3 mr-3">
                     <div class="col-lg-4 mt-4">
-                        <div class="card shadow">
+                        <div class="card shadow h-100">
                             <img src="./IMG/GPS.png" class="card-img-top" alt="img">
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">GPS Navigation System</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://github.com/mela7475/GPS_Navigation_System" class="btn btn-dark">View Project Page</a>
+                                <p class="card-text">The goal of this project was to design a universally applicable GPS system. For our purposes we used an RC car.</p>
+                                <a href="https://github.com/mela7475/GPS_Navigation_System" class="btn btn-dark mt-auto">View Project Page</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mt-4">
-                        <div class="card shadow">
-                            <div class="card-img-top square" alt="img"></div>
-                            <div class="card-body">
+                        <div class="card shadow h-100">
+                            <img src="./IMG/scara-arm.png" class="card-img-top" alt="img" style="max-height:392px;">
+                            <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Scara Robotic Arm</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://github.com/mela7475/Scara_Robotic_Arm" class="btn btn-dark">View Project Page</a>
+                                <p class="card-text">Using the control of an Arduino and some motors we were able to create a scara robotic arm that would move based on a coordinate system.</p>
+                                <a href="https://github.com/mela7475/Scara_Robotic_Arm" class="btn btn-dark mt-auto">View Project Page</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mt-4">
-                        <div class="card shadow">
+                        <div class="card shadow h-100">
                             <img src="./IMG/nerf-turret.png" class="card-img-top" alt="img" style="max-height:392px;" >
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Nerf Vulcan Turret</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://github.com/mela7475/Nerf_Vulcan_Turret" class="btn btn-dark">View Project Page</a>
+                                <p class="card-text">We designed a Nerf gun turret using an Arduino and a Pixy Camera.</p>
+                                <a href="https://github.com/mela7475/Nerf_Vulcan_Turret" class="btn btn-dark mt-auto">View Project Page</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mt-4">
-                        <div class="card shadow">
+                        <div class="card shadow h-100">
                             <img src="./IMG/Staircase-LightUp.png" class="card-img-top" alt="img" style="max-height:392px;" >
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Motion Sensor Light Up Staircase</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://github.com/mela7475/Nerf_Vulcan_Turret" class="btn btn-dark">View Project Page</a>
+                                <p class="card-text">I designed a motion sensor based light setup for my staircase. The setup is modular and can handle different amounts of LEDs.</p>
+                                <a href="https://github.com/mela7475/Nerf_Vulcan_Turret" class="btn btn-dark mt-auto">View Project Page</a>
                             </div>
                         </div>
                     </div>
@@ -259,37 +271,37 @@
                             <div class="form-group">
                                 <div class="input-group input-group-lg">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text bg-primary text-white">
+                                        <span class="input-group-text bg-lightblue text-light">
                                             <i class="fas fa-user"></i>
                                         </span>
                                     </div>
-                                    <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                                    <input type="text" class="form-control bg-white text-dark" placeholder="Name">
                                 </div>
                             </div>
         
                             <div class="form-group">
                                 <div class="input-group input-group-lg">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text bg-primary text-white">
+                                        <span class="input-group-text bg-lightblue text-light">
                                             <i class="fas fa-envelope"></i>
                                         </span>
                                     </div>
-                                    <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                                    <input type="email" class="form-control bg-white text-dark" placeholder="Email">
                                 </div>
                             </div>
         
                             <div class="form-group">
                                 <div class="input-group input-group-lg">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text bg-primary text-white">
+                                        <span class="input-group-text bg-lightblue text-light">
                                             <i class="fas fa-pencil-alt"></i>
                                         </span>
                                     </div>
-                                        <textarea class="form-control bg-dark text-white" placeholder="Message"></textarea>
+                                        <textarea class="form-control bg-white text-dark" placeholder="Message"></textarea>
                                 </div>
                             </div>
         
-                            <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg my-5">
+                            <input type="submit" value="Submit" class="btn btn-lightblue btn-block btn-lg my-5">
         
                         </form>
                 </div>
@@ -301,12 +313,12 @@
 <footer id="main-footer" class="p-5 bg-black text-white">
     <div class="container">
         <div class="row">
-            <div class="py-4 col"><a href="#" class="text-white"><i class="fab fa-linkedin icon-big"></i></a></div>
-            <div class="py-4 col"><a href="#" class="text-white"><i class="fab fa-github icon-big"></i></a></div>
-            <div class="py-4 col"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollAbout()"><h4>About</h4></button></div>
-            <div class="py-4 col"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollWork()"><h4>Work</h4></button></div>
-            <div class="py-4 col"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollProjects()"><h4>Projects</h4></button></div>
-            <div class="py-4 col"><button class="nav-link btn btn-link text-white font-weight-bold" onclick="scrollContact()"><h4>Contact Me</h4></button></div>
+            <div class="py-4 col"><a href="#" class="text-nav"><i class="fab fa-linkedin icon-big"></i></a></div>
+            <div class="py-4 col"><a href="#" class="text-nav"><i class="fab fa-github icon-big"></i></a></div>
+            <div class="py-4 col"><button class="nav-link btn btn-link text-nav font-weight-bold" onclick="scrollAbout()"><h4>About</h4></button></div>
+            <div class="py-4 col"><button class="nav-link btn btn-link text-nav font-weight-bold" onclick="scrollWork()"><h4>Work</h4></button></div>
+            <div class="py-4 col"><button class="nav-link btn btn-link text-nav font-weight-bold" onclick="scrollProjects()"><h4>Projects</h4></button></div>
+            <div class="py-4 col"><button class="nav-link btn btn-link text-nav font-weight-bold" onclick="scrollContact()"><h4>Contact Me</h4></button></div>
         </div>
         <div class="footer-copyright text-center py-3">Copyright © <span id="year"></span> by Jordan Melancon. All rights reserved.</div>
     </div>

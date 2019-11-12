@@ -1,3 +1,5 @@
+/* light blue - #749CBE    */
+
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
@@ -81,6 +83,22 @@ li {
     background-color: #0e0d0c;
 }
 
+.bg-lightblue {
+    background-color: #749cbe;
+}
+
+.text-lightblue {
+    color: #749cbe;
+}
+
+.text-nav {
+    color: #fff;
+}
+
+.text-nav:hover {
+    color: #749cbe;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1600px !important;
@@ -91,28 +109,38 @@ li {
 /* Buttons */
 /* ----------------------------------------------- */
 
-.btn-darker {
+.btn-lightblue {
     color: #fff;
-    background-color: #1f1b18;
-    border-color: #1f1b18;
+    background-color: #749cbe;
+    border-color: #749cbe;
 }
 
-.btn-darker:hover {
-    color: #1f1b18;
-    background-color: #e8e8e8;
-    border-color: #1f1b18;
-}
-
-.btn-lighter {
-    color: #333333;
-
-    border-color: #333333;
-}
-
-.btn-lighter:hover {
+.btn-lightblue:hover {
     color: #fff;
-    background-color: #333333;
-    border-color: #333333;
+    background-color: #49769c;
+    border-color: #49769c;
+}
+
+.btn-outline-lightblue {
+    color: #749cbe;
+    border-color: #749cbe;
+}
+
+.btn-outline-lightblue:hover {
+    color: #fff;
+    background-color: #749cbe;
+    border-color: #749cbe;
+}
+
+.btn-outline-nav {
+    color: #fff;
+    border-color: #749cbe;
+}
+
+.btn-outline-nav:hover {
+    color: #fff;
+    background-color: #749cbe;
+    border-color: #749cbe;
 }
 
 
